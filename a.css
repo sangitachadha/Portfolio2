@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+      margin:5px;
+      background-image:url('../../../Session%2016/FunOFile/Images/background2.png')
+      
+      }
+      
+      .site-header{
+      width:100%;
+      height:10%;
+      padding:5px;
+      float:center;
+      }
+      
+      #bannerdiv{
+          width:100%;
+          height:40px;
+          float:center;
+          background-image: linear-gradient(to bottom right, rgba(171, 171, 171,0), rgba(83,116,181,1));
+      }
+      #bannerimg{
+          width:100%;
+          height:40px;
+      }
+      .logo{
+      width:200px;
+      height:200px;
+      float: left;
+      margin: 0px;
+      border-radius:100px;
+      border:2px dotted #5d6a80;}
+      
+      .site-header h1{
+          font-family:forte;
+          font-size:150px;
+          color:#5d6a80;
+          text-align:center;
+          align:right;
+          margin:0px;
+      }
+      
+      .nav-bar1{
+          background-image: linear-gradient(to bottom right, rgba(171, 171, 171,0), rgba(83,116,181,1));
+          border-radius:20px;
+      float:left;
+      width:20%;
+      height:auto;
+      
+      margin:auto;
+      padding:1px;}
+      
+      .mylist{
+          float:left;
+          list-style-type: none;
+          margin:20px auto;
+          text-align:center;
+          
+          }
+      a{
+          text-decoration:none;
+      }
+      .mylist li{
+          font-family:Roboto Condensed;
+          font-size:20px;
+          font-weight:bolder;
+          text-align:center;
+          margin:10px;
+          padding:auto;
+          display:inline;
+          color:black;
+          }
+      .mylist2{
+          list-style-type: none;
+          text-align:left;
+          padding:1px;}
+          .mylist2 li{
+          font-family:comic sans ms;
+          font-size:20px;
+          color:#db8e2a;
+          padding:20px 1px;
+          }
+      .icon{
+      width:30px;
+      height:30px;
+      margin:0px;
+      padding:0px;}
+      .banner{
+      margin:0px 20px 0px 15px;
+      width:98%;
+      height:400px;}
+      
+      .leftcolumn {   
+    float: left;
+    width: 25%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: right;
+    width: 75%;
+    background-color: transparent;
+    padding-left: 20px;
+  }
+  
+  /* image */
+  .contentbody {
+    background-color: transparent;
+    width: 100%;
+    height:auto;
+    padding: 20px;
+  }
+  
+  .contentbody img{
+      width:100%;
+      height:auto;
+  }
+      
+  /* Add a content effect for articles */
+  .content {
+    background-color: #f5edeb;
+    padding: 20px;
+      color:#db8e2a;
+    margin:20px;
+    overflow:auto;
+    
+  }
+  .content p a{
+      color:#db8e2a;
+  }
+  
+  .content h2,h3,h4{
+      font-family:Bradley Hand ITC;
+      color:#5d6a80;
+              
+  }
+  .content h5,h6{
+          font-family:Verdana;
+          color:black;
+          
+      }
+  .content p{
+      font-family:comic sans ms;
+      font-size:20px;
+      
+  }
+  
+  .content h2{
+          font-size:4em;
+          text-align:center;
+  }
+  .content h3{
+          font-size:2em;
+  }
+  .content h4{
+      color:gray;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+      footer{
+      width:100%;
+      height:300px;}
+      
+      details{
+      width:98%;
+      height:auto;
+      margin:5px;
+      float:left;}
+      
+      details > summary {
+    padding: 20px;
+    margin:5px;
+    width: 98%;
+    height:auto;
+    text-align:center;
+    color:blue;
+    background-color: #eeeeee;
+    border: none;
+    cursor: pointer;
+  }
+  
+  details > p {
+    background-color: #eeeeee;
+    padding: 5px;
+    margin: 5px;
+    width:100%;
+    color:blue;
+    text-align:center;
+    height:auto;
+    
+  }
+      address {
+      text-align:center;}
+      
+  
